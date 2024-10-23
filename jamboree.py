@@ -57,3 +57,5 @@ if st.button("Predict"):
     st.write(model_pred(GRE_Score, TOEFL_Score, University_Rating, SOP,LOR, CGPA, Research))
 else:
     st.write("Click on Predict, once you're done with the data")
+
+
