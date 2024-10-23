@@ -29,7 +29,7 @@ with col5:
     LOR = st.slider("Letter Of Recomendation", 1.0, 5.0,step=0.5)    
     
 with col6:
-    CGPA= int(st.text_input('Enter CGPA', "11"))
+    CGPA= st.slider("CGPA", 5.0, 10.0,step=0.01)
 
 with col7:
     Research = st.radio("Research Paper", ["Yes","No"]) 
